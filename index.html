@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sxxmx</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/edu-xp.css">
+    <link rel="stylesheet" type="text/css" href="assets/skills-bar.css">
+    <link rel="stylesheet" type="text/css" href="assets/projects.css">
+    <link rel="stylesheet" type="text/css" href="assets/responsive.css">
+    <!-- libs -->
+    <script src="assets/lib/scroll.js"></script>
+    <script src="assets/lib/d3.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+
+
+     <script type="text/javascript" src="mainScript.js"></script>
+     <script type="text/javascript" src="cvScript.js"></script>
+     <script type="text/javascript" src="barSkillsScript.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title-page">Hi I am Sxxnx.</h1>
+      <p class="subtitle">Front-end engineer / DataViz dev</p>
+    </div>
+    <div class="wrap-content">
+      <a class="anchor" id="top"></a>
+      <div class='skills'>
+        <h2 class="subtitle-page">Stuff I do</h2>
+        <div id="ChartSkills" class="chart-skills"></div>
+      </div>
+      <div id='education' class="education">
+        <h2 class="subtitle-page">Education & XP</h2>
+        <div id ="chartEducationXP"></div>
+        <div class="education-text">
+          <p>I started my <span class="strong">engineer journey</span> at the age of 12 when I learned web development by myself (mostly <span class="focus">HTML</span> & <span class="focus">CSS</span>)</p>
+          <p>After that, I took IT as an option during my Bachelor degree and started to learn some <span class="focus">Javascript</span>. To be honest,
+            I did not understand anything about Javascript at that time and thought JS was evil! </p>
+          <p>However, after 1 year and 6 months working as an English teacher in <span class="strong">Japan</span>, I joined XX Company in Shiga as a
+            <span class="focus">Project Manager</span> first, and then became a <span class="focus">Front-end Engineer</span> aka I had to learn JS. So I took an awesome online class : <span class="strong">CS50</span>.
+            For some magical reason (not even kidding, I still do not know how it happened) I started to understand <span class="strong">Javascript</span>
+            and produced working JS code for the first time! But since we were using <span class="focus">jQuery</span> at XX Company I had to change
+            everything I coded before and spent the next month Googling "what is [insert a JS function here] in jQuery".</p>
+          <p>I came back to <span class="strong">France</span> after 4 years in Japan and studied at the Université Grenoble Alpes <span class="focus">Computer Science</span>
+            and then did an awesome <span class="focus">Data Visualization</span> internship at YY Company in the R&D Data Management Team. That was where
+            I used <span class="focus">D3.js</span> for the first time and I thought it was dope. I improved some charts in the YY Company product and created
+            and new one based on several criteria.</p>
+          <p>After graduation I joined ZZ Company as a <span class="focus">Software Engineer</span> and started to work on several personal <span class="strong">DataViz<span> projects.</p>
+        </div>
+      </div>
+      <div id='partHTML' class="part-html">
+        <h2 class="subtitle-page"><a class="anchor" id="parthtml"></a>HTML</h2>
+        <div id="chartHTML"></div>
+      </div>
+      <div id='partCSS' class="part-css">
+        <h2 class="subtitle-page"><a class="anchor" id="partcss"></a>CSS - UI/UX</h2>
+        <div id="chartCSS"></div>
+      </div>
+      <div id='partJS' class="part-js">
+        <h2 class="subtitle-page"><a class="anchor" id="partjs"></a>Javascript</h2>
+        <div id="chartJS"></div>
+      </div>
+      <div id='partPython' class="part-python">
+        <h2 class="subtitle-page"><a class="anchor" id="partpython"></a>Python</h2>
+        <div id="chartPython"></div>
+      </div>
+      <div id='partProjects' class="projects">
+        <h2 class="subtitle-page"><a class="anchor" id="projects"></a>Projects</h2>
+        <div class="grid-wrap row">
+          <div class="project first col-sm">
+            <img src="assets/img/datasana.png">
+            <h3 class="project-title">DatAsana (WIP)</h3>
+            <div class="project-links">
+              <a target="_blank" class="project-link view" href="#"><i class="fas fa-eye"></i></a>
+              <a target="_blank" class="project-link" href="*****"><i class="fas fa-code"></i></a>
+            </div>
+          </div>
+          <div class="project second col-sm">
+            <img src="assets/img/d3ITL.png">
+            <h3 class="project-title">D3 Interactive Timeline</h3>
+            <div class="project-links">
+              <a target="_blank" class="project-link view" href="timeline.html"><i class="fas fa-eye"></i></a>
+              <a target="_blank" class="project-link" href="****"><i class="fas fa-code"></i></a>
+            </div>
+          </div>
+          <div class="project last col-sm">
+            <img src="assets/img/dvs.png">
+            <h3 class="project-title">Data Visualization Challenge</h3>
+            <div class="project-links">
+              <a target="_blank" class="project-link view" href="dvsc-first.html"><i class="fas fa-eye"></i></a>
+              <a target="_blank" class="project-link" href="****"><i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a target="_blank" href="****"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/***/"><i class="fab fa-linkedin-in"></i></a>
+        <a target="_blank" href="https://twitter.com/xxxx"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="back-to-top"><a href="#top"><i class="fas fa-arrow-circle-up"></i></a></div>
+    </div>
+  </body>
+</html>

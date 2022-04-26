@@ -1,2 +1,2 @@
-# portfoliov2
-Old version of my portfolio
+# TODO  
+- ~~do a responsive version because it is super ugly on a smartphone~~  

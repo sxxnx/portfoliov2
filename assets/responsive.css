@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+  .link-in {
+    display: block;
+    margin-left: 40px;
+    position: relative;
+  }
+  #ChartSkills g {
+    transform: translate(240px, 0);
+  }
+}
+@media screen and (max-width: 1092px) {
+  .text-category {
+    display: none;
+  }
+  .line-skill {
+    display: none;
+  }
+  .circle-skill {
+    display: none;
+  }
+  #treemap rect:hover {
+    fill: #F95F62 !important; /* sorry : bypass default style with d3 */
+  }
+}
+@media screen and (max-width: 900px) {
+  #ChartSkills g {
+    transform: translate(0, 0);
+  }
+  svg {
+    width: 80%;
+  }
+}

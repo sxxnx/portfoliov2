@@ -1,0 +1,64 @@
+.timeline-base {
+  stroke: #34354b;
+  stroke-width: 0.2;
+}
+.circle-category {
+  transition: fill-opacity 0.2s, r 0.5s;
+  -webkit-transition: fill-opacity 0.2s, r 0.5s;
+}
+.circle-education,
+.circle-education ~ .text-position,
+.details-education .text-position {
+  color: #92C8E4;
+  fill: #92C8E4;
+}
+.circle-work,
+.circle-work ~ .text-position,
+.details-work .text-position {
+  color: #efc39d;
+  fill: #efc39d;
+}
+.circle-hovered {
+  fill-opacity: 0.2;
+}
+.text-date,
+.text-position {
+  transition: opacity 0.7s ease-in-out;
+  -webkit-transition: opacity 0.7s ease-in-out;
+}
+.text-date {
+  fill: #34354b;
+  fill-opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+.position-title {
+  font-size: 25px;
+}
+.text-position {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+.education-text {
+  color: #34354b;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+.focus {
+  color: #ef9d9d;
+  font-weight: bold;
+  position: relative;
+}
+.strong {
+  font-weight: bold;
+}
+.focus:after {
+  background-color: #92C8E4;
+  bottom: 1px;
+  content: '';
+  height: 10px;
+  opacity: 0.15;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
